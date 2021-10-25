@@ -1,5 +1,5 @@
 class image:
-  li=["F8-107-1.jpg","F8-107-1 (2).jpg","F8-107-1 (3).jpg","F10-136-1.jpg","F10-136-2.jpg"]
+  file_name=["F8-107-1.jpg","F8-107-1 (2).jpg","F8-107-1 (3).jpg","F10-136-1.jpg","F10-136-2.jpg"]
 
   def load(img_name):
     img_path=path_prefix + img_name
@@ -10,5 +10,5 @@ class image:
     inputs=images_loading(image_path)
     return inputs
 
-  for i in li:
-    load(i)
+  for file in file_name:
+    load(file)
