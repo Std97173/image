@@ -10,5 +10,5 @@ class image:
     inputs=images_loading(image_path)
     return inputs
 
-  for file in file_name:
-    load(file)
+  for img_name in file_name:
+    load(img_name)
